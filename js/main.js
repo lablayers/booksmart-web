@@ -1,4 +1,6 @@
-var s = skrollr.init();
+if ( !((navigator.userAgent.indexOf('iOS') != -1) || (navigator.userAgent.indexOf('Android') != -1) || (navigator.userAgent.indexOf('Mobile') != -1) || (navigator.userAgent.indexOf('Phone') != -1)) ) {
+    var s = skrollr.init();
+};
 
 // Smooth scrolling
 $(function() {
