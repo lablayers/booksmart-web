@@ -21,3 +21,6 @@ $(function() {
   });
 });
 
+$('[data-toggle^="nav"]').click(function(){
+    $("body").toggleClass("nav-expanded");
+});
