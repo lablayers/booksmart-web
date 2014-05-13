@@ -1075,7 +1075,7 @@ pre code {
   padding-bottom: 0px;
   background: rgba(0, 0, 0, 0.5);
   min-height: 500px!important;
-  max-height: 500px;
+  max-height: 90vh;
   overflow: hidden;
 }
 .hero img {
@@ -1088,7 +1088,7 @@ pre code {
   visibility: visible !important;
 }
 .hero .hero-header {
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 19px;
   color: #FFF;
   font-size: 42px;
@@ -1319,6 +1319,9 @@ hr {
   top: -20px;
   left: 50%;
   margin-left: -20px;
+}
+#agent {
+  padding-top: 86px;
 }
 #artist,
 #promoter {
