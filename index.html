@@ -66,7 +66,7 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     </head>
-    <body>
+    <body class="skrollr-body">
     <div class="wrap">
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -74,7 +74,23 @@
 
         <!-- Add your site or application content here -->
 
-        <nav class="navbar" data-0="background:rgba(255,255,255,0);color:rgb(255,255,255);" data-1="background:rgba(255,255,255,1);color:rgb(92,92,92);">
+
+        <header class="hero" id="top" data-start="opacity: 1;" data-top-bottom="opacity: 0;" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="/img/iphone.png" alt=""  data-start="margin-top: 0px;" data-top-bottom="margin-top: -300px;" data-anchor-target=".hero">
+                    </div>
+                    <div class="col-6">
+                      <h1 class="hero-header">A&nbsp;Smarter Way to<br> Book Concerts.</h1>
+                      <p class="hero-subtitle">Whether you are an Artist, Booking Agent, Promoter or Manager, Booksmart will be the most effortless and cost efficient way you will ever process a show.</p>
+                      <a class="button" href="#about">Learn More&nbsp;</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar" data-bottom-top="position:relative; !z-index: 1;" data-top-bottom="position:fixed; !z-index: 9999;" data-anchor-target=".hero">
             <div class="container">
               <div class="row">
                 <div class="col-4">
@@ -90,30 +106,16 @@
                     <a class="nav-link" data-toggle="nav" href="#agent">AGENT</a>
                     <a class="nav-link" data-toggle="nav" href="#promoter">PROMOTER</a>
                     <a class="nav-link" data-toggle="nav" href="#manager">MANAGER</a>
-                    <a class="nav-link" data-toggle="nav" href="/signup">SIGN&nbsp;UP</a>
+                    <a class="nav-link signup" data-toggle="nav" href="/signup">SIGN&nbsp;UP</a>
                 </div>
               </div>
             </div>
           </nav>
 
-        <header class="hero" id="top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <img src="/img/iphone.png" alt="">
-                    </div>
-                    <div class="col-6">
-                      <h1 class="hero-header">A&nbsp;Smarter Way to Book Concerts</h1>
-                      <p class="hero-subtitle">Whether you are an Artist, Booking Agent, Promoter or Manager, Booksmart will be the most effortless and cost efficient way you will ever process a show.</p>
-                      <a class="button" href="#about">Learn More&nbsp;</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-
         <section id="about">
             <div class="container">
                 <h2>See what Booksmart can do for you!</h2>
+                <h3 class="muted">Pick a persona from below:</h3>
                 <div class="row">
                     <!--<a class="col-3" href="#artist">
                         <img src="/img/i-artist.png" alt="">
@@ -133,7 +135,6 @@
                     </a>
                 </div>
             </div>
-            <hr style="background:white;margin-bottom:0;">
 
         </section>
 
@@ -190,40 +191,12 @@
         </section>
 
 -->
-        <section id="what">
-            <div class="container">
-              <h2>See what Booksmart can do for you</h2>
-              <div class="row">
-                  <div class="panels col-4">
-                    <div class="cover">
-                      Manage Your Artists
-                    </div>
-                    <div class="slide">
-                      Lorpum Ipsum Sat And Donated Blood
-                    </div>
-                  </div>
-                  <div class="panel col-4">
-                    <div class="cover">
-                      Manage Your Artists
-                    </div>
-                    <div class="slide">
-                      Lorpum Ipsum Sat And Donated Blood
-                    </div>
-                  </div>
-                  <div class="panel col-4">
-                    <div class="cover">
-                      Manage Your Artists
-                    </div>
-                    <div class="slide">
-                      Lorpum Ipsum Sat And Donated Blood
-                    </div>
-                  </div>
-              </div>
-            </div>
-        </section>
         <section class="user-type" id="agent">
             <div class="container">
                 <div class="row">
+                    <div class="col-3">
+                        <img class="icon" src="/img/i-agent.png" alt="">
+                    </div>
                     <div class="col-9">
                         <h1>Agent</h1>
                         <p class="lead">
@@ -231,9 +204,6 @@
                             range of innovative tools will help you, help them.
                         </p>
                         <a href="" class="button">Learn More ►</a>
-                    </div>
-                    <div class="col-3">
-                        <img class="icon" src="/img/i-agent.png" alt="">
                     </div>
                 </div>
                 <div id="agent-details">
@@ -305,6 +275,9 @@
         <section class="user-type" id="promoter">
             <div class="container">
                 <div class="row">
+                    <div class="col-3">
+                        <img class="icon" src="/img/i-promoter.png" alt="">
+                    </div>
                     <div class="col-9">
                         <h1>Promoter</h1>
                         <p class="lead">
@@ -313,11 +286,7 @@
                         </p>
                         <a href="" class="button">Learn More ►</a>
                     </div>
-                    <div class="col-3">
-                        <img class="icon" src="/img/i-promoter.png" alt="">
-                    </div>
                 </div>
-                <hr>
                         <div id="promoter-details">
                             <div id="tabs_container">
                                         <div class="box" id="offers">
@@ -386,6 +355,9 @@
         <section class="user-type" id="manager">
             <div class="container">
                 <div class="row">
+                    <div class="col-3">
+                        <img class="icon" src="/img/i-manager.png" alt="">
+                    </div>
                     <div class="col-9">
                         <h1>Manager</h1>
                         <p class="lead">
@@ -394,11 +366,7 @@
                         </p>
                         <a href="" class="button">Learn More ►</a>
                     </div>
-                    <div class="col-3">
-                        <img class="icon" src="/img/i-manager.png" alt="">
-                    </div>
                 </div>
-                <hr>
                 <div id="agent-details">
                     <div id="tabs_container">
                                 <div class="box" id="offers">
