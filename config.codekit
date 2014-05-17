@@ -20,14 +20,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/img\/i-agent.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -248,26 +240,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/screens\/1 copy 2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 209582,
-		"inputAbbreviatedPath": "\/img\/screens\/1 copy 2.png",
-		"outputAbbreviatedPath": "\/img\/screens\/1 copy 2.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/screens\/1 copy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 209582,
-		"inputAbbreviatedPath": "\/img\/screens\/1 copy.png",
-		"outputAbbreviatedPath": "\/img\/screens\/1 copy.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/screens\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -285,6 +257,26 @@
 		"initialSize": 209582,
 		"inputAbbreviatedPath": "\/img\/screens\/10.png",
 		"outputAbbreviatedPath": "\/img\/screens\/10.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/screens\/11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209582,
+		"inputAbbreviatedPath": "\/img\/screens\/11.png",
+		"outputAbbreviatedPath": "\/img\/screens\/11.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/screens\/12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209582,
+		"inputAbbreviatedPath": "\/img\/screens\/12.png",
+		"outputAbbreviatedPath": "\/img\/screens\/12.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -367,14 +359,6 @@
 		"outputAbbreviatedPath": "\/img\/screens\/9.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
 		},
 	"\/js\/main.js": {
 		"fileType": 64,
@@ -607,25 +591,6 @@
 		"outputStyle": 0,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 1,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/less\/style.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/less\/style.less",
-		"outputAbbreviatedPath": "\/css\/style.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"strictImports": 0,
 		"strictMath": 0,
