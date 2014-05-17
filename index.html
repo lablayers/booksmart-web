@@ -11,6 +11,7 @@
 
         <link rel="stylesheet" href="css/style.css">
         <link href="http://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -204,7 +205,6 @@
                             As an agent, you help out your artists the best you can. Booksmart's wide
                             range of innovative tools will help you, help them.
                         </p>
-                        <a href="" class="button">Learn More ►</a>
                     </div>
                 </div>
                 <div id="agent-details">
@@ -270,6 +270,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="#" class="button center">Learn More ►</a>
                 </div>
         </section>
 
@@ -285,7 +286,6 @@
                             Juggling all of your responsibilities as a promoter is tough. Let Booksmart
                             take a load off your mind.
                         </p>
-                        <a href="" class="button">Learn More ►</a>
                     </div>
                 </div>
                         <div id="promoter-details">
@@ -350,6 +350,7 @@
                                     </li>
                                 </ul>
                             </div>
+                            <a href="#" class="button center">Learn More ►</a>
                         </div>
                 </section>
 
@@ -365,7 +366,6 @@
                             So many opportunities, so much to organize. With Booksmart you can
                             make the most of your time.
                         </p>
-                        <a href="" class="button">Learn More ►</a>
                     </div>
                 </div>
                 <div id="agent-details">
@@ -431,6 +431,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="#" class="button center">Learn More ►</a>
             </div>
         </section>
 
@@ -441,8 +442,10 @@
                         <p>Booksmart is launching Summer 2014.</p>
                     </div>
                     <div class="col-6 signup">
-                        <form action="/">
-                            <input id="email" name="email" type="email" placeholder="artist@agent.com">
+
+                        <form action="http://booksmart.it/signup" method="POST" accept-charset="UTF-8">
+                            <input name="_token" type="hidden" value="0q7oBqjLyRtXgayMvWts74TROLtfjMY8Jrl8tCze">
+                            <input id="email" name="email" type="email" placeholder="artist@agent.com" required="required">
                             <input type="submit" class="button" href="/signup" value="Sign Up!">
                         </form>
                     </div>
@@ -452,10 +455,44 @@
 
         <footer class="footer">
             <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <b>Get In Touch</b><br>
+                        <span style="font-size:80%;">Booksmart Technologies c/o Baiada Incubator</span><br>
+                        3220 Market Street Suite 369<br>
+                        Philadelphia, PA 19104<br>
+                        215-895-0316<br>
+                        info (at) booksmart.it
+                    </div>
+                    <div class="col-4" style="text-align:center">
+                        <b>Spread The Word</b>
+                        <br>
+                        <br>
+                        <a href="http://facebook.com/booksmartnow"><span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x" style="color:#3b5998"></i>
+                          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                        </span></a>
+
+                        <a href="http://twitter.com/booksmartnow"><span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x" style="color:#55acee"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span></a>
+
+                        <a href="http://instagram.com/booksmartinc"><span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x" style="color:#3f729b"></i>
+                          <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                        </span></a>
+
+                    </div>
+                    <div class="col-4" style="text-align: right;">
+                        <b>More Info</b><br>
+                        <a href="http://angel.co/booksmart">Angelist</a><br>
+                        <a href="http://www2.lebow.drexel.edu/Baiada/">Laurence A. Baiada Incubator</a><br><br>
+                        &copy; 2014 Booksmart. All rights reserved.<br>
+                        Created with love in Philadelphia, PA.
+                    </div>
+                </div>
                 <p>
-                    &copy; 2014 Booksmart. All rights reserved.
-                    <br>
-                    Created with love in Philadelphia, PA.
                 </p>
             </div>
         </footer>

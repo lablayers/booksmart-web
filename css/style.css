@@ -1291,6 +1291,13 @@ hr {
   content: '- ';
   margin-left: -1em;
 }
+.center {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 200px;
+  margin-top: 20px;
+}
 .dots {
   position: relative;
   margin-top: 85px;
@@ -1318,6 +1325,19 @@ hr {
   position: relative;
   z-index: 1;
 }
+.dots .dot a:hover,
+.dots .mid a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.dots .dot .button {
+  padding: 2px 6px;
+  font-size: 80%;
+  font-weight: normal;
+}
+.dots .tabulous_active {
+  font-weight: bold;
+}
 .dots .tabulous_active:before {
   content: ' ';
   width: 0;
@@ -1330,6 +1350,9 @@ hr {
   left: 50%;
   margin-left: -20px;
 }
+.dots .tabulous_active .button {
+  background: #655C89;
+}
 #agent {
   padding-top: 86px;
 }
@@ -1340,7 +1363,7 @@ hr {
 .soon {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #333333;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .soon p {
   margin-top: 11px;
@@ -1384,9 +1407,17 @@ hr {
 .footer {
   padding-top: 49px;
   padding-bottom: 39px;
-  text-align: center;
+  text-align: left;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+}
+.footer .fa-stack {
+  font-size: 36px;
+  color: white;
+}
+.footer a {
+  color: white;
+  text-decoration: underline;
 }
 .visible-mobile,
 .hidden-desktop {
