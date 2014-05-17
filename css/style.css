@@ -1259,14 +1259,6 @@ hr {
   position: absolute;
   left: 0px;
 }
-#tabs_container .box article {
-  border-top: 4px solid #e9a051;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.29) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.27) 0px 2px 11px 0px;
-  box-shadow: rgba(255, 255, 255, 0.29) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.27) 0px 2px 11px 0px;
-  padding: 20px;
-  padding-top: 0px;
-  background: white;
-}
 #tabs_container .box.image-right,
 #tabs_container .box:nth-child(3),
 #tabs_container .box:nth-child(4) {
