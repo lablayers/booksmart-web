@@ -18,17 +18,21 @@
         if (!console[method]) {
             console[method] = noop;
         }
-    } 
+    }
 }());
 
 // Place any jQuery/helper plugins in here.
 $( document ).ready(function() {
     $('#artist-details, #agent-details, #promoter-details, #manager-details').tabulous({
             effect: 'scale'
-        });         
+        });
 });
-
 
 $(document).on('scroll',function(){
     $('header').addClass('sticky');
-})
+});
+
+// Fluidbox
+$(function () {
+    $("a").fluidbox();
+});
