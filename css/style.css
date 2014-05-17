@@ -1158,8 +1158,9 @@ hr {
   display: block;
   border-radius: 50%;
   margin: 10px;
-  max-height: 180px;
+  max-height: 120px;
   width: auto;
+  float: right;
 }
 .user-type:first-child {
   padding-top: 140px;
@@ -1237,6 +1238,9 @@ hr {
 }
 .panels p {
   text-align: left;
+}
+#tabs_container {
+  margin-top: -40px;
 }
 #tabs_container .box {
   color: white;
