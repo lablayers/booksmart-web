@@ -728,15 +728,20 @@ hr {
   .navbar {
     text-align: center;
   }
-  .user-type .icon, .hero img, .user-type .col-4 img {
+  .hero img, .user-type .col-4 img {
     display: none;
   }
   .hero {
     text-align: center;
     height: auto!important;
-    min-height: 100px!important;
-    max-height: 500px!important;
+    min-height: 200px!important;
+    max-height: 600px!important;
     padding-bottom: 20px;
+    padding-top: 100px;
+    h1.hero-header {
+      font-size: 32px;
+      font-weight: bold;
+    }
   }
   .hero .hero-header {
     margin-top: 0px;
@@ -744,6 +749,18 @@ hr {
   #about .col-3 {
     width: 40%;
     display: inline-block;
+  }
+  .user-type {
+    padding-top: 20px!important;
+    paddinh-bottom: 20px!important;
+    .icon {
+      float: initial;
+      display: block;
+      margin: auto;
+    }
+  }
+  h1, h2 {
+    text-align: center;
   }
   .container {
     padding: inherit 10px;
@@ -782,6 +799,17 @@ hr {
   }
   .dots .mid {
     width: 5%;
+  }
+  .tabulous_active {
+    &:before {
+      top: -20px;
+      left: 50%;
+      margin-left: -10px!important;
+    }
+  }
+  article {
+    padding-left: 20px!important;
+    height: auto!important;
   }
   // Navigation
   .navbar .col-8 {
@@ -827,8 +855,11 @@ hr {
     color: #FFF;
     padding: 6px;
   }
-  #soon .signup {
-    text-align: center;
+  .soon .submit {
+    text-align: center!important;
+    display: block!important;
+    margin-top: 20px!important;
+    width: 100%!important;
   }
   footer {
     text-align: center;
