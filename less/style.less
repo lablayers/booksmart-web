@@ -655,9 +655,8 @@ hr {
   padding-top: 50px;
   padding-bottom: 50px;
   // background: @black-80;
-  background-color: rgba(0,0,0,.5);
   text-align: center;
-
+  background: none;
   p {
     margin-top: 11px;
     background-image: none;
@@ -698,7 +697,6 @@ hr {
   padding-top: 49px;
   padding-bottom: 39px;
   text-align: left;
-  background-color: rgba(0,0,0,.5);
   color: white;
   .fa-stack {
     font-size: 36px;
@@ -708,6 +706,12 @@ hr {
     color: white;
     text-decoration: underline;
   }
+}
+
+.footer-bg {
+  background: url(/img/footer.jpeg);
+  background-attachment: fixed;
+  background-position: top;
 }
 
 // Mobile
@@ -760,7 +764,7 @@ hr {
     }
   }
   h1, h2 {
-    text-align: center;
+    text-align: center!important;
   }
   .container {
     padding: inherit 10px;
