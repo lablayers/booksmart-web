@@ -1519,8 +1519,9 @@ hr {
   .container {
     padding: inherit 10px;
   }
-  .soon {
-    text-align: center;
+  .soon,
+  p.lead {
+    text-align: center!important;
   }
   .wrap {
     margin: 0px!important;
