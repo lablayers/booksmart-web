@@ -633,6 +633,8 @@ hr {
   padding-bottom: 50px;
   // background: @black-80;
   background-color: rgba(0,0,0,.5);
+  text-align: center;
+
   p {
     margin-top: 11px;
     background-image: none;
@@ -640,21 +642,32 @@ hr {
     color: #FFF;
     font-size: 25px;
     line-height: 28px;
+    display: inline-block;
+    text-align: center;
   }
   input {
     border: none;
   }
-  input#email {
+  input#email, select {
     .button;
     background: gray;
     color: white;
+    height: 38px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     &:hover {
       background: white;
       color: black;
     }
   }
   .signup {
-    text-align: right;
+  }
+  form {
+    display: inline-block;
+  }
+  .submit {
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 

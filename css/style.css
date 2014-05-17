@@ -1364,6 +1364,7 @@ hr {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 .soon p {
   margin-top: 11px;
@@ -1373,11 +1374,14 @@ hr {
   color: #FFF;
   font-size: 25px;
   line-height: 28px;
+  display: inline-block;
+  text-align: center;
 }
 .soon input {
   border: none;
 }
-.soon input#email {
+.soon input#email,
+.soon select {
   display: inline-block;
   padding: 18px 21px;
   border-radius: 5px;
@@ -1389,20 +1393,29 @@ hr {
   text-decoration: none;
   background: gray;
   color: white;
+  height: 38px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
-.soon input#email:hover {
+.soon input#email:hover,
+.soon select:hover {
   color: white;
   text-decoration: none;
   background-color: #f02e4e;
   -webkit-transition-delay: initial;
   transition-delay: initial;
 }
-.soon input#email:hover {
+.soon input#email:hover,
+.soon select:hover {
   background: white;
   color: black;
 }
-.soon .signup {
-  text-align: right;
+.soon form {
+  display: inline-block;
+}
+.soon .submit {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .footer {
   padding-top: 49px;
