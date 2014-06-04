@@ -1,1 +1,0 @@
-var s=skrollr.init();$(function(){$("a[href*=#]:not([href=#],.tab)").click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var t=$(this.hash);t=t.length?t:$("[name="+this.hash.slice(1)+"]"),t.length&&$("html,body").animate({scrollTop:t.offset().top},1e3)}})});
