@@ -33,6 +33,6 @@ $(document).on('scroll',function(){
 });
 
 // Fluidbox
-$(function () {
-    $("a").fluidbox();
-});
+// $(function () {
+//     $("a").fluidbox();
+// });

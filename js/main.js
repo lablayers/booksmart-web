@@ -12,14 +12,12 @@ $(function() {
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
-        /*$('html,body').animate({
-            scrollTop: $(target).offset().top
-        }, 800, 'easeInOutCirc');
-        return false;*/
+        return false;
       }
     }
   });
 });
+
 
 $('[data-toggle^="nav"]').click(function(){
     $("body").toggleClass("nav-expanded");
