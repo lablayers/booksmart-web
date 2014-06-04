@@ -28,6 +28,36 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/agent-contracts_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156712,
+		"inputAbbreviatedPath": "\/img\/agent-contracts_v2.jpg",
+		"outputAbbreviatedPath": "\/img\/agent-contracts_v2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/agent-offers_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 142758,
+		"inputAbbreviatedPath": "\/img\/agent-offers_v2.jpg",
+		"outputAbbreviatedPath": "\/img\/agent-offers_v2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/agent-settlements_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102521,
+		"inputAbbreviatedPath": "\/img\/agent-settlements_v2.jpg",
+		"outputAbbreviatedPath": "\/img\/agent-settlements_v2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/footer.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -175,6 +205,106 @@
 		"initialSize": 356317,
 		"inputAbbreviatedPath": "\/img\/main-image.jpg",
 		"outputAbbreviatedPath": "\/img\/main-image.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/manager-advance.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224156,
+		"inputAbbreviatedPath": "\/img\/manager-advance.jpg",
+		"outputAbbreviatedPath": "\/img\/manager-advance.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/manager-advance_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 238891,
+		"inputAbbreviatedPath": "\/img\/manager-advance_v2.jpg",
+		"outputAbbreviatedPath": "\/img\/manager-advance_v2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/manager-contracts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77373,
+		"inputAbbreviatedPath": "\/img\/manager-contracts.jpg",
+		"outputAbbreviatedPath": "\/img\/manager-contracts.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/manager-offer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99490,
+		"inputAbbreviatedPath": "\/img\/manager-offer.jpg",
+		"outputAbbreviatedPath": "\/img\/manager-offer.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/manager-offer_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122968,
+		"inputAbbreviatedPath": "\/img\/manager-offer_v2.jpg",
+		"outputAbbreviatedPath": "\/img\/manager-offer_v2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/manager-settlement.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118513,
+		"inputAbbreviatedPath": "\/img\/manager-settlement.jpg",
+		"outputAbbreviatedPath": "\/img\/manager-settlement.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/manager-settlement_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128173,
+		"inputAbbreviatedPath": "\/img\/manager-settlement_v2.jpg",
+		"outputAbbreviatedPath": "\/img\/manager-settlement_v2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/promoter-contracts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156239,
+		"inputAbbreviatedPath": "\/img\/promoter-contracts.jpg",
+		"outputAbbreviatedPath": "\/img\/promoter-contracts.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/promoter-offers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137298,
+		"inputAbbreviatedPath": "\/img\/promoter-offers.jpg",
+		"outputAbbreviatedPath": "\/img\/promoter-offers.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/promoters-advances.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 203588,
+		"inputAbbreviatedPath": "\/img\/promoters-advances.jpg",
+		"outputAbbreviatedPath": "\/img\/promoters-advances.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
