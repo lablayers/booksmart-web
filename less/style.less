@@ -510,6 +510,26 @@ hr {
       left: 0px;
       &:after {
       }
+      &:not(.phone) {
+        padding:10px;
+        background: radial-gradient(rgb(244, 244, 244), rgb(185, 185, 185));
+        margin-bottom: -20px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border: 1px solid black;
+        box-shadow:  0 0 0 2px  rgb(154, 154, 154);
+        margin: 2px;
+      }
+      &.phone {
+        max-width: 250px;
+        padding: 12px;
+        background: black;
+        border-radius: 4px;
+        border: 2px solid gray;
+        box-shadow:  0 0 0 6px rgb(185, 185, 185);
+        margin-left: 120px;
+        margin-right: 120px;
+      }
     }
     article {
       // border-top: 4px solid @orange;
@@ -649,6 +669,15 @@ hr {
   }
   .tabulous_active {
   //   color: #655c89;
+  }
+}
+
+#manager {
+  #tabs_container .box {
+    padding-left: 470px;
+  }
+  #tabs_container .box.image-right, #tabs_container .box:nth-child(3), #tabs_container .box:nth-child(4) {
+    padding-right: 470px;
   }
 }
 

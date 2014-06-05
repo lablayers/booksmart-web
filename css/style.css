@@ -1268,6 +1268,29 @@ hr {
   position: absolute;
   left: 0px;
 }
+#tabs_container .box img:not(.phone) {
+  padding: 10px;
+  background: -webkit-radial-gradient(#f4f4f4, #b9b9b9);
+  background: radial-gradient(#f4f4f4, #b9b9b9);
+  margin-bottom: -20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 1px solid black;
+  -webkit-box-shadow: 0 0 0 2px #9a9a9a;
+  box-shadow: 0 0 0 2px #9a9a9a;
+  margin: 2px;
+}
+#tabs_container .box img.phone {
+  max-width: 250px;
+  padding: 12px;
+  background: black;
+  border-radius: 4px;
+  border: 2px solid gray;
+  -webkit-box-shadow: 0 0 0 6px #b9b9b9;
+  box-shadow: 0 0 0 6px #b9b9b9;
+  margin-left: 120px;
+  margin-right: 120px;
+}
 #tabs_container .box article {
   height: 275px;
 }
@@ -1384,6 +1407,14 @@ hr {
 #artist,
 #promoter {
   background: white!important;
+}
+#manager #tabs_container .box {
+  padding-left: 470px;
+}
+#manager #tabs_container .box.image-right,
+#manager #tabs_container .box:nth-child(3),
+#manager #tabs_container .box:nth-child(4) {
+  padding-right: 470px;
 }
 .soon {
   padding-top: 50px;
