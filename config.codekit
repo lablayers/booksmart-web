@@ -388,6 +388,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/screens\/agent-offers_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58310,
+		"inputAbbreviatedPath": "\/img\/screens\/agent-offers_v2.jpg",
+		"outputAbbreviatedPath": "\/img\/screens\/agent-offers_v2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/screens\/agent-settlements_v2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -774,7 +784,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Azura",
+"lastSavedByUser": "Victor Lourng",
 "manualImportLinks": {
 	},
 "projectAttributes": {
