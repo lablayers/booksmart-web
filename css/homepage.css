@@ -1073,7 +1073,7 @@ pre code {
   color: black!important;
 }
 .hero {
-  padding-bottom: 0px;
+  padding-bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   min-height: 550px!important;
   height: 90vh;
@@ -1094,14 +1094,14 @@ pre code {
   margin-bottom: 19px;
   color: #FFF;
   font-size: 42px;
-  text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 2px 0;
 }
 .hero .hero-subtitle {
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.83);
   font-size: 15px;
   line-height: 22px;
-  text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 2px 0;
   font-size: 20px;
   line-height: 1.5em;
 }
@@ -1126,7 +1126,7 @@ pre code {
 }
 #about h3 {
   font-size: 28px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 .muted {
@@ -1191,7 +1191,7 @@ hr {
     margin: 4px;
     background: white;
     color: #333;
-    box-shadow: rgba(255, 255, 255, 0.29) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.27) 0px 2px 11px 0px;
+    box-shadow: rgba(255, 255, 255, 0.29) 0 1px 0 0 inset, rgba(0, 0, 0, 0.27) 0 2px 11px 0;
   }
   .box-wide {
     width: 100%;
@@ -1222,8 +1222,8 @@ hr {
   margin: 5px 0 5px 5px;
   background: white;
   color: #333;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.29) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.27) 0px 2px 11px 0px;
-  box-shadow: rgba(255, 255, 255, 0.29) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.27) 0px 2px 11px 0px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.29) 0 1px 0 0 inset, rgba(0, 0, 0, 0.27) 0 2px 11px 0;
+  box-shadow: rgba(255, 255, 255, 0.29) 0 1px 0 0 inset, rgba(0, 0, 0, 0.27) 0 2px 11px 0;
   text-align: left;
   height: 200px;
   width: 40%;
@@ -1234,7 +1234,7 @@ hr {
 .panels .header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   font-size: 120%;
-  margin-top: 0px;
+  margin-top: 0;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
@@ -1266,7 +1266,7 @@ hr {
   margin-left: 20px;
   display: block;
   position: absolute;
-  left: 0px;
+  left: 0;
 }
 #tabs_container .box img:not(.phone) {
   padding: 10px;
@@ -1297,13 +1297,13 @@ hr {
 #tabs_container .box.image-right,
 #tabs_container .box:nth-child(3),
 #tabs_container .box:nth-child(4) {
-  padding-left: 0px!important;
+  padding-left: 0!important;
   padding-right: 575px;
 }
 #tabs_container .box.image-right img,
 #tabs_container .box:nth-child(3) img,
 #tabs_container .box:nth-child(4) img {
-  right: 0px;
+  right: 0;
   left: initial;
   float: right;
 }
@@ -1337,7 +1337,7 @@ hr {
   position: relative;
   margin-top: 64px;
   padding-top: 20px;
-  margin-left: 0px;
+  margin-left: 0;
   text-align: center;
 }
 .dots:after {
@@ -1349,7 +1349,7 @@ hr {
   top: 0%;
   margin-top: -4px;
   left: 0;
-  border-radius: 0px;
+  border-radius: 0;
   content: ' ';
 }
 .dots .dot {
@@ -1529,7 +1529,7 @@ hr {
     font-weight: bold;
   }
   .hero .hero-header {
-    margin-top: 0px;
+    margin-top: 0;
   }
   #about .col-3 {
     width: 40%;
@@ -1556,7 +1556,7 @@ hr {
     text-align: center!important;
   }
   .wrap {
-    margin: 0px!important;
+    margin: 0!important;
     width: 100%!important;
   }
   .panels .box {
@@ -1599,9 +1599,9 @@ hr {
   .navbar .col-8 {
     position: fixed;
     left: -350px;
-    top: 0px;
-    margin: 0px;
-    padding: 0px;
+    top: 0;
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     max-width: 350px;
@@ -1616,8 +1616,8 @@ hr {
     width: 100%;
     text-align: left;
     background: white;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     padding: 12px;
     font-size: 20px;
     border-bottom: 1px solid lightGray!important;
@@ -1629,7 +1629,7 @@ hr {
   .nav-expanded .navbar .col-8 {
     -webkit-box-shadow: 0 0 200px 180px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 200px 180px rgba(0, 0, 0, 0.5);
-    left: 0px;
+    left: 0;
   }
   .menu-link {
     float: left;
@@ -1663,8 +1663,7 @@ hr {
   position: relative;
   margin-top: 40px;
 }
-#agent-details a.soon,
-#promoter-details a.soon {
+a.soon {
   position: relative;
   position: absolute;
   bottom: 0;
@@ -1672,14 +1671,23 @@ hr {
   z-index: 50;
   width: 100%;
   height: 100%;
+  padding-top: 150px;
   background: rgba(0, 0, 0, 0.65);
   border-radius: 6px;
   text-align: center;
+  border-radius: 0!important;
+  border-top: 1px solid white;
 }
-#agent-details h1,
-#promoter-details h1 {
-  padding-top: 60px;
+a.soon img {
+  margin: auto;
+}
+a.soon h1 {
   text-align: center;
+}
+.blur {
+  -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  filter: blur(20px);
 }
 /* Don't forget to include a CSS reset file otherwise it might look a little bit strange*/
 #tabs_container {
