@@ -1672,22 +1672,37 @@ a.soon {
   width: 100%;
   height: 100%;
   padding-top: 150px;
-  background: rgba(0, 0, 0, 0.65);
   border-radius: 6px;
+  background: rgba(0, 0, 0, 0.8);
   text-align: center;
   border-radius: 0!important;
   border-top: 1px solid white;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+a.soon:hover {
+  text-decoration: none;
+  -webkit-box-shadow: inset 0 0 6px white;
+  box-shadow: inset 0 0 6px white;
+  background: rgba(0, 0, 0, 0.6);
+}
+a.soon h1 {
+  text-align: center;
+  margin-top: 40px;
 }
 a.soon img {
   margin: auto;
+}
+a.soon span {
+  margin-top: 60px;
 }
 a.soon h1 {
   text-align: center;
 }
 .blur {
-  -webkit-filter: blur(20px);
-  -moz-filter: blur(20px);
-  filter: blur(20px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  filter: blur(5px);
 }
 /* Don't forget to include a CSS reset file otherwise it might look a little bit strange*/
 #tabs_container {
