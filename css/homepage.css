@@ -1707,9 +1707,7 @@ a.soon:hover {
   background: rgba(0, 0, 0, 0.6);
 }
 a.soon span:hover {
-  -webkit-box-shadow: 0 0 20px #e9a051;
-  box-shadow: 0 0 20px #e9a051;
-  background: #e9a051;
+  background: #d37a1b;
 }
 a.soon h1 {
   text-align: center;
