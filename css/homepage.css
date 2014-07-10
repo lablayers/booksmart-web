@@ -1281,15 +1281,24 @@ hr {
   margin: 2px;
 }
 #tabs_container .box img.phone {
+  /*max-width: 250px;
+        padding: 50px 8px;
+        background: black;
+        border-radius: 25px;
+        border: 2px solid #945A1C;
+        box-shadow: 0 0 2px 2px #e9a051;
+        margin-left: 120px;
+        margin-right: 120px;
+        &:after {
+          position: absolute;
+        }*/
   max-width: 250px;
-  padding: 12px;
-  background: black;
-  border-radius: 4px;
-  border: 2px solid gray;
-  -webkit-box-shadow: 0 0 0 6px #b9b9b9;
-  box-shadow: 0 0 0 6px #b9b9b9;
-  margin-left: 120px;
-  margin-right: 120px;
+  padding: 77px 26px;
+  margin: 0 120px;
+  background: url('/img/phone.png');
+  -webkit-background-size: 500px;
+  background-size: 500px;
+  background-position: top center;
 }
 #tabs_container .box article {
   height: 275px;
@@ -1676,7 +1685,6 @@ a.soon {
   background: rgba(0, 0, 0, 0.8);
   text-align: center;
   border-radius: 0!important;
-  border-top: 1px solid white;
   -webkit-transition: all .5s linear;
   transition: all .5s linear;
 }
@@ -1696,15 +1704,9 @@ a.soon span {
 }
 a.soon:hover {
   text-decoration: none;
-  -webkit-box-shadow: inset 0 0 40px white;
-  box-shadow: inset 0 0 40px white;
   background: rgba(0, 0, 0, 0.6);
 }
 a.soon span:hover {
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
   -webkit-box-shadow: 0 0 20px #e9a051;
   box-shadow: 0 0 20px #e9a051;
   background: #e9a051;
